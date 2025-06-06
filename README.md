@@ -17,8 +17,6 @@ Der Federated Data Scout besteht aus der **Dataset Search Engine (daseen)** und 
 - Nur EDPs mit gültiger Schema-Version können in daseen verwendet werden.
 - Die eigentlichen Daten verbleiben beim Anbieter – daseen fungiert als föderierte Suchplattform.
 
----
-
 ## 2. Projektarchitektur – Die drei Säulen
 
 ### 2.1 Der Bausatz (Softwaremodule)
@@ -26,6 +24,7 @@ Der Federated Data Scout besteht aus der **Dataset Search Engine (daseen)** und 
 #### 2.1.1 Übersicht der Module
 
 ![ACA-2024-039 Umsetzungskonzept](Asset_und_EDP_Flow.png)
+
 *Abbildung 1 („Asset und EDP Flow“) illustriert den Informationsfluss von Asset und EDP sowie die schematische Abfolge der einzelnen Schritte zur Erzeugung eines EDP.*
 
 #### 2.1.2 Technische Spezifikationen
@@ -85,14 +84,17 @@ Die Versionierung erfolgt mittels Git.
 #### 3.2.1 Systemarchitektur-Diagramme
 
 ![ACA-2024-039 Umsetzungskonzept](EDPS_Architektur_EDC.png)
+
 *Abbildung 2 („EDPS-Architektur am Beispiel EDC-basierte Datenräume“) zeigt die EDPS-Architektur am Beispiel EDC Integration.*
 
 ![ACA-2024-039 Umsetzungskonzept](daseen_Architektur.png)
+
 *Abbildung 3 („daseen Architektur“) illustriert die angebotene Microservice Infrastruktur und die Zugriffswege auf den Service für die einzelnen Persona.*
 
 #### 3.2.2 Kommunikationswege
 
 ![ACA-2024-039 Umsetzungskonzept](Asset_und_EDP_Flow.png)
+
 *Abbildung 4 („Asset und EDP Flow“) illustriert den Informationsfluss von Asset und EDP sowie die schematische Abfolge der einzelnen Schritte zur Erzeugung eines EDP.*
 
 ---
@@ -114,10 +116,12 @@ Details hierzu sind den EDPS und daseen Detail-Umsetzungskonzepten zu entnehmen,
 #### 5.1.1 Software-Bausatz
 
 ![ACA-2024-039 Umsetzungskonzept](Asset_und_EDP_Flow.png)
+
 *Abbildung 5 („Asset und EDP Flow“) illustriert den Informationsfluss von Asset und EDP sowie die schematische Abfolge der einzelnen Schritte zur Erzeugung eines EDP.*
 
 
 ![ACA-2024-039 Umsetzungskonzept](EDPS_Architektur_EDC.png)
+
 *Abbildung 6 („EDPS-Architektur am Beispiel EDC-basierte Datenräume“) zeigt die EDPS-Architektur am Beispiel EDC Integration.*
 
 #### 5.1.2 Dokumentationssystem
@@ -127,7 +131,8 @@ Markdown & Swagger Dokumentation sind in den Repositories enthalten.
 #### 5.1.3 Web-Plattform (Landing Page)
 
 ![ACA-2024-039 Umsetzungskonzept](daseen_Architektur.png)
-*Abbildung 8 („daseen Architektur“) illustriert die angebotene Microservice Infrastruktur und die Zugriffswege auf den Service für die einzelnen Persona.*
+
+*Abbildung 7 („daseen Architektur“) illustriert die angebotene Microservice Infrastruktur und die Zugriffswege auf den Service für die einzelnen Persona.*
 
 ### 5.2 Laufzeitsicht
 
