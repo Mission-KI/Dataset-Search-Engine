@@ -160,6 +160,9 @@ Insgesamt zeigte das System eine solide Leistung unter Last, mit unter Kontrolle
 
 ### 6.1 Teststrategien
 
+#### 6.1.1 Unit Tests
+Unit Tests sind in den Repositories enthalten. Eine Ausführung kann über die in den Repositories mitgelieferten GitHub Workflows angestoßen werden.
+
 #### 6.1.2 Integrationstests
 Integrationstests sind in den Repositories enthalten. Eine Ausführung kann über die in den Repositories mitgelieferten GitHub Workflows angestoßen werden.
 
