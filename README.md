@@ -23,7 +23,8 @@ Der Federated Data Scout besteht aus der **Dataset Search Engine (daseen)** und 
 
 #### 2.1.1 Übersicht der Module
 
-![ACA-2024-039 Umsetzungskonzept](Asset_und_EDP_Flow.png)
+![ACA-2024-039 Umsetzungskonzept](Asset_und_EDP_Flow.png)[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FMission-KI%2FFederated-Data-Scout.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FMission-KI%2FFederated-Data-Scout?ref=badge_shield)
+
 
 *Abbildung 1 („Asset und EDP Flow“) illustriert den Informationsfluss von Asset und EDP sowie die schematische Abfolge der einzelnen Schritte zur Erzeugung eines EDP.*
 
@@ -188,3 +189,7 @@ Die Code-Qualität wird mittels Pipelines (GitHub Workflows) sichergestellt.
 
 ---
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FMission-KI%2FFederated-Data-Scout.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FMission-KI%2FFederated-Data-Scout?ref=badge_large)
