@@ -1,4 +1,4 @@
-# Federated Data Scout
+# Data Search Engine
 
 ## 1. Executive Summary
 
@@ -6,11 +6,11 @@
 
 Vertrauenswürdige künstliche Intelligenz („KI“) benötigt für effektives Training und präzise Vorhersagen vor allem qualitativ hochwertige Daten. Obwohl täglich enorme Datenmengen entstehen, liegt nur ein Teil davon in verwertbarer, kuratierter Form vor. Eine zentrale Herausforderung besteht darin, dass bisher keine Suchfunktion existiert, mit der man über verschiedene Datenräume und -portale hinweg gezielt nach Datensätzen anhand von analytischen Eigenschaften und unabhängig der zahlreichen domänenspezifischen Ontologien suchen kann.
 
-Hier setzt der **Federated Data Scout** an.
+Hier setzt der **Data Search Engine** an.
 
 ### 1.2 Schlüsselkomponenten
 
-Der Federated Data Scout besteht aus der **Dataset Search Engine (daseen)** und dem verteilten Microservice **Extended Dataset Profile Service (EDPS)**.
+Der Data Search Engine besteht aus der **Dataset Search Engine (daseen)** und dem verteilten Microservice **Extended Dataset Profile Service (EDPS)**.
 
 - Daten Assets werden mittels EDPS analysiert.
 - Die Ergebnisse werden im **Extended Dataset Profile (EDP)** gespeichert.
@@ -187,4 +187,5 @@ Die Code-Qualität wird mittels Pipelines (GitHub Workflows) sichergestellt.
   [Documentation](https://eclipse-tractusx.github.io/)
 
 ---
+
 
