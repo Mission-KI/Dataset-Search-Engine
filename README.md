@@ -182,16 +182,3 @@ Code quality is ensured via pipelines (GitHub workflows).
 **Eclipse Dataspace Components**
 - [Documentation](https://eclipse-tractusx.github.io/)
 
----
-
-## Image References
-
-The following images are referenced in this documentation:
-
-1. **Asset_und_EDP_Flow.png** - Illustrates the information flow between asset and EDP, including the schematic sequence of steps for generating an EDP (referenced in Figures 1, 4, and 5)
-
-2. **EDPS_Architektur_EDC.png** - Shows the EDPS architecture using EDC integration as an example (referenced in Figures 2 and 6)
-
-3. **daseen_Architektur.png** - Illustrates the microservice infrastructure and access paths to the service for different personas (referenced in Figures 3 and 7)
-
-4. **performance_graph.png** - Displays system performance metrics during stress testing with CPU and memory utilization data
