@@ -1,4 +1,4 @@
-# Data Search Engine
+# Dataset Search Engine
 
 ## 1. Executive Summary
 
@@ -6,11 +6,11 @@
 
 Trustworthy artificial intelligence (AI) requires high-quality data above all else to enable effective training and accurate predictions. Although vast amounts of data are generated daily, only a fraction is available in a curated, usable form. A central challenge lies in the fact that no search function currently exists that allows targeted dataset discovery across different data spaces and portals, based on analytical properties and independent of numerous domain-specific ontologies.
 
-This is where the **Data Search Engine** comes in.
+This is where the **Dataset Search Engine** comes in.
 
 ### 1.2 Key Components
 
-The Data Search Engine consists of the **Dataset Search Engine (daseen)** and the distributed microservice **Extended Dataset Profile Service (EDPS)**.
+The Dataset Search Engine consists of the **Dataset Search Engine (daseen)** and the distributed microservice **Extended Dataset Profile Service (EDPS)**.
 
 - Data assets are analyzed using the EDPS
 - Results are stored in the **Extended Dataset Profile (EDP)**
