@@ -62,10 +62,6 @@ Technical documentation is contained within the respective repositories:
 
 **Frontend**
 - Landing Page: https://www.daseen.de
-- Search Portal: https://app.daseen.de
-
-**daseen Connector Service (API)**
-- daseen Connector Service (API): Only for registered users
 
 ## 3. Integration and Synergies
 
