@@ -23,7 +23,7 @@ The Dataset Search Engine consists of the **Dataset Search Engine (daseen)** and
 
 #### 2.1.1 Module Overview
 
-![ACA-2024-039 Implementation Concept](Asset_und_EDP_Flow.png)
+![ACA-2024-039 Implementation Concept](Asset_und_EDP_Flow_EN.png)
 
 *Figure 1 ("Asset and EDP Flow") illustrates the flow of information between asset and EDP, as well as the schematic sequence of individual steps for generating an EDP.*
 
@@ -79,7 +79,7 @@ Versioning is managed using Git.
 
 #### 3.2.1 System Architecture Diagrams
 
-![ACA-2024-039 Implementation Concept](EDPS_Architektur_EDC.png)
+![ACA-2024-039 Implementation Concept](EDPS_Architectur_EDC_EN.png)
 
 *Figure 2 ("EDPS Architecture with EDC-based Data Spaces") shows the EDPS architecture using EDC integration as an example.*
 
@@ -89,7 +89,7 @@ Versioning is managed using Git.
 
 #### 3.2.2 Communication Paths
 
-![ACA-2024-039 Implementation Concept](Asset_und_EDP_Flow.png)
+![ACA-2024-039 Implementation Concept](Asset_und_EDP_Flow_EN.png)
 
 *Figure 4 ("Asset and EDP Flow") illustrates the flow of information between asset and EDP, as well as the schematic sequence of steps required to generate an EDP.*
 
@@ -109,11 +109,11 @@ Details can be found in the EDPS and daseen detailed implementation concepts pre
 
 #### 5.1.1 Software Toolkit
 
-![ACA-2024-039 Implementation Concept](Asset_und_EDP_Flow.png)
+![ACA-2024-039 Implementation Concept](Asset_und_EDP_Flow_EN.png)
 
 *Figure 5 ("Asset and EDP Flow") illustrates the flow of information between asset and EDP, as well as the schematic sequence of steps for generating an EDP.*
 
-![ACA-2024-039 Implementation Concept](EDPS_Architektur_EDC.png)
+![ACA-2024-039 Implementation Concept](EDPS_Architectur_EDC_EN.png)
 
 *Figure 6 ("EDPS Architecture with EDC-based Data Spaces") shows the EDPS architecture using EDC integration as an example.*
 
@@ -123,7 +123,7 @@ Markdown & Swagger documentation is included in the repositories.
 
 #### 5.1.3 Web Platform (Landing Page)
 
-![ACA-2024-039 Implementation Concept](daseen_Architektur.png)
+![ACA-2024-039 Implementation Concept](daseen_Architectur_EN.png)
 
 *Figure 7 ("daseen Architecture") illustrates the microservice infrastructure provided and the access paths to the service for different personas.*
 
@@ -141,7 +141,7 @@ Relevant diagrams are included in the use case documentation.
 
 During stress testing, 10 parallel EDPS instances were operated, generating approximately 14,000 imports. The performance graph depicts system load over time, recording both CPU and memory utilization.
 
-![Performance Graph](performance_graph.png)
+![Performance Graph](performance_graph_EN.png)
 
 **CPU Utilization:** Highly variable with frequent spikes occasionally exceeding 50%. This indicates intermittent processing peaks likely caused by concurrent import tasks. Despite fluctuations, average CPU load remained manageable, showing that the system handled parallel processing without major bottlenecks.
 
