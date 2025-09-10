@@ -113,7 +113,7 @@ Details can be found in the EDPS and daseen detailed implementation concepts pre
 
 *Figure 5 ("Asset and EDP Flow") illustrates the flow of information between asset and EDP, as well as the schematic sequence of steps for generating an EDP.*
 
-![ACA-2024-039 Implementation Concept](daseen_Architectur_EN.png)
+![ACA-2024-039 Implementation Concept](EDPS_Architektur_EDC_EN.png)
 
 *Figure 6 ("EDPS Architecture with EDC-based Data Spaces") shows the EDPS architecture using EDC integration as an example.*
 
