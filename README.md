@@ -17,6 +17,21 @@ The Dataset Search Engine consists of the **Dataset Search Engine (daseen)** and
 - Only EDPs with a valid schema version can be used in daseen
 - The actual data remains with the provider – daseen functions as a federated search platform
 
+### 1.3 Importing existing dataset profiles
+
+For rebuilding or redeploying the DASEEN instance, the full dataset dump (Elasticsearch bulk JSON file, approx. 1.5 GB) is available on request.
+
+The dataset dump can be imported with the standard ElasticSearch bulk API, e.g.:
+
+```kotlin
+
+curl -XPOST http://localhost:9200/_bulk \
+  -H "Content-Type: application/json" \
+  --data-binary @edp-bulk.json
+
+```
+If you need access to the dataset for re-indexing or development, please contact us at kontakt@mission-ki.de.
+
 ## 2. Project Architecture – The Three Pillars
 
 ### 2.1 The Toolkit (Software Modules)
